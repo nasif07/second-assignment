@@ -154,19 +154,6 @@ nav .btn{
     font-weight: 400;
 }
 
-/*  */
-
-/* games store style */
-.games-store{
-    background: linear-gradient(#FF42A5, #FF42A5);
-}
-.games-store button{
-    border-radius: 50px;
-    background: #FFF;
-    border: 0;
-    justify-content: center;
-    align-items: center;
-}
 
 /* more games */
 .more-games-section{
@@ -253,7 +240,8 @@ footer span{
     .online-games-card-container,
     .games-section,
     .play-games,
-    .play-games-image{
+    .play-games-image,
+    .more-games-section{
         padding: 20px;
     }
     .banner img,
@@ -262,13 +250,26 @@ footer span{
         height: 320px;
     }
     .relative-image{
-        position: static;
-        bottom: 0px;
-        padding-left: 0px;
+        position: relative;
+        bottom: 100px;
+        padding-left: 180px;
     }
     .relative-image img{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
-
+    footer .logo{
+        flex-wrap: wrap;
+    }
+    .more,
+    .our-terms,
+    .copyright{
+        padding: 0px;
+        margin: 0;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    .footer-padding{
+        padding: 15px;
+    }
 }
