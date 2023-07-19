@@ -96,6 +96,40 @@ nav .btn{
     background-color: #4EC5F7;
     margin-left: 1.2rem;
 }
+main{
+    padding: 0 240px;
+}
+/* online games card container style */
+.games-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #0B0223;
+}
+.games-title span{
+    color: #8758F1;
+}
+.games-description{
+    text-align: center;
+    color: #534C64;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+.card .card-des {
+    color: #534C64;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+.games-section{
+    padding: 100px 0;
+}
+.online-games-card-container{
+    display: flex;
+    gap: 1.5rem;
+}
 
 
 
