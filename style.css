@@ -126,8 +126,9 @@ nav .btn{
     padding-bottom: 20px;
 }
 .online-games-card-container img:hover{
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    border: 5px solid #F948B2;
+    border-radius: 20px;
+    transition: 0.2s ease;
 }
 .card .card-des {
     color: #534C64;
@@ -308,5 +309,55 @@ footer span{
     }
     .footer-padding{
         padding: 15px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 960px){
+    nav,
+    nav ul,
+    .banner,
+    .online-games-card-container,
+    .play-games,
+    .play-games-image{
+        flex-direction: column;
+    }
+    .online-games-card-container,
+    .games-section,
+    .play-games,
+    .play-games-image,
+    .more-games-section,
+    nav,
+    .banner{
+        padding: 20px;
+    }
+    nav h3{
+        margin: 25px;
+    }
+    nav li{
+        margin-bottom: 1rem;
+    }
+    .play-games-image > img{
+        width: 400px;
+        height: 400px;
+    }
+    .online-games-card-container .card{
+        margin: auto;
+    }
+    .relative-image img{
+        width: 300px;
+        height: 300px;
+    }
+    .relative-image{
+        position: relative;
+        bottom: 70px;
+        padding-left: 150px;
+    }
+    .games-section{
+        padding: 30px auto;
+    }
+    .games-section .card{
+        flex-wrap: wrap;
+    }
+    .footer-padding{
+        padding: 2rem;
     }
 }
