@@ -31,6 +31,10 @@ nav li{
     font-size: 1rem;
     color: #3C354F;
 }
+nav li img{
+    height: 40px;
+    width: 40px;
+}
 nav li a{
     text-decoration: none;
 }
@@ -121,6 +125,10 @@ nav .btn{
     font-size: 1.2rem;
     padding-bottom: 20px;
 }
+.online-games-card-container img:hover{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
 .card .card-des {
     color: #534C64;
     font-weight: 500;
@@ -207,6 +215,21 @@ footer span{
     font-weight: 600;
     font-size: 1.2rem;
 }
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 25px 0;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+}
+.icons .youtube{
+    height: 55px;
+    width: 55px;
+}
 .our-terms{
     display: flex;
     text-align: center;
@@ -241,22 +264,36 @@ footer span{
     .games-section,
     .play-games,
     .play-games-image,
-    .more-games-section{
+    .more-games-section,
+    nav,
+    .banner{
         padding: 20px;
     }
     .banner img,
     .play-games-image > img{
-        width: 320px;
-        height: 320px;
+        width: 280px;
+        height: 280px;
+    }
+    nav h3{
+        margin: 10px;
+    }
+    nav li{
+        margin-bottom: 1rem;
     }
     .relative-image{
         position: relative;
-        bottom: 100px;
-        padding-left: 180px;
+        bottom: 70px;
+        padding-left: 150px;
     }
     .relative-image img{
         width: 200px;
         height: 200px;
+    }
+    .play-games-title{
+        padding: 0;
+    }
+    .play-games{
+        gap: 0;
     }
     footer .logo{
         flex-wrap: wrap;
