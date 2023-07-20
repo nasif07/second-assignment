@@ -43,6 +43,9 @@ nav li a{
     height: 40px;
     margin-right: 1rem;
 }
+nav i{
+    margin-left: 0.7rem;
+}
 nav h3{
     color: #0B0223;
     font-size: 2.8rem;
@@ -102,6 +105,7 @@ nav .btn{
 }
 
 /* online games card container style */
+
 .games-section{
     padding: 100px 240px;
 }
@@ -124,11 +128,6 @@ nav .btn{
     font-weight: 400;
     font-size: 1.2rem;
     padding-bottom: 20px;
-}
-.online-games-card-container img:hover{
-    border: 5px solid #F948B2;
-    border-radius: 20px;
-    transition: 0.2s ease;
 }
 .card .card-des {
     color: #534C64;
@@ -275,6 +274,10 @@ footer span{
         width: 280px;
         height: 280px;
     }
+    .play-games-title{
+        text-align: center;
+        padding: 0;
+    }
     nav h3{
         margin: 10px;
     }
@@ -289,9 +292,6 @@ footer span{
     .relative-image img{
         width: 200px;
         height: 200px;
-    }
-    .play-games-title{
-        padding: 0;
     }
     .play-games{
         gap: 0;
@@ -334,6 +334,12 @@ footer span{
     }
     nav li{
         margin-bottom: 1rem;
+    }
+    .play-games-image{
+        margin: auto;
+    }
+    .play-games-title{
+        padding: 0;
     }
     .play-games-image > img{
         width: 400px;
